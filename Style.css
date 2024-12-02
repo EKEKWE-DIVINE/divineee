@@ -1,9 +1,20 @@
-*{
+/* Global Styles */
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-.nav-bar{
-    background-color:rgba(100, 99, 98, 0.537);
+
+body {
+    background-image: url(438c721d-fdfc-4147-bd14-4fc372a6d39f.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    background-color: rgba(100, 99, 98, 0.537);
     height: 55px;
     width: 100%;
     align-items: center;
@@ -12,7 +23,8 @@
     position: fixed;
     z-index: 1;
 }
-.nav-bar-list{
+
+.nav-bar-list {
     height: 50px;
     width: 100%;
     background-color: black;
@@ -22,95 +34,90 @@
     text-align: center;
     align-items: center;
     position: fixed;
+    top: 0;
+    z-index: 2;
 }
-.Home-Page-option:hover{
+
+.nav-bar-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar-list a:hover {
+    color: white;
+}
+
+.Home-Page-option:hover, 
+.About-Page-option:hover, 
+.Contact-Page-option:hover {
     cursor: pointer;
     color: white;
 }
-.About-Page-option:hover{
-    cursor: pointer;
-    color: white;
-}
-.Contact-Page-option:hover{
-    cursor: pointer;
-    color: white;
-}
-.body{
-    background-image: url(438c721d-fdfc-4147-bd14-4fc372a6d39f.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    overflow-x: hidden;
-}
-#below-below-navbar{
+
+#below-below-navbar {
     background-color: black;
-     height: 550px; 
-     text-align: center; 
+    height: 550px;
+    text-align: center;
+    padding-top: 70px; /* Adjust for navbar space */
 }
-.Chose-us{
-    color: white; 
-    font-size: 40px; 
-    margin-top: 70px; 
+
+.Chose-us {
+    color: white;
+    font-size: 40px;
+    margin-top: 70px;
     padding: 70px;
 }
-.necessity{
-    display: flex; 
-    justify-content: 
-    space-around;
+
+.necessity {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
 }
-.necessity-content{
-    background-color: white; 
-    height: 190px; 
-    width: 340px; 
-    align-content: center; 
-    border-radius: 30px;  
-}
-.necessity-content-2{
-    background-color: white; 
-    height: 190px; 
-    width: 340px; 
-    align-content: center; 
+
+.necessity-content,
+.necessity-content-2,
+.necessity-content-3 {
+    background-color: white;
+    height: 190px;
+    width: 340px;
+    align-content: center;
     border-radius: 30px;
+    margin: 10px;
+    text-align: center;
 }
-.necessity-content-3{
-    background-color: white; 
-    height: 190px; 
-    width: 340px; 
-    align-content: center; 
-    border-radius: 30px;
-}
-.below-below-navbar-2{
-    background-color: black; 
-    height: 400px; 
-    text-align: center; 
+
+.below-below-navbar-2 {
+    background-color: black;
+    height: 400px;
+    text-align: center;
     opacity: 0.8;
 }
-.Achievement{
+
+.Achievement {
     height: 300px;
-    background-color: black; 
+    background-color: black;
     justify-content: center;
 }
-.Items{
+
+.Items {
     height: 100px;
     width: 300px;
     border-radius: 15px;
-    background-color: hwb(0 24% 76% / 0.658);  
+    background-color: hwb(0 24% 76% / 0.658);
     align-content: center;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
 }
-/* .Achievement:hover{
-    transform: scale(1.1);
-} */
-.Items:hover{
+
+.Items:hover {
     transform: scale(1.1);
     background-color: white;
     color: black;
 }
-/* #necessity:hover{
-    transform: scale(1.05);
-} */
-#content:hover{
-    transform: scale(1.10);
-}
+
 /* Contact Section */
 .contact-section {
     padding: 4rem 2rem;
@@ -165,86 +172,87 @@
 .footer p {
     margin-top: 1rem;
     font-size: 0.85rem;
-/* }
-  @media (max-width: 768px) {
-            .nav-bar-list {
-                flex-direction: column;
-                padding-top: 60px;
-            }
+}
 
-            .necessity {
-                flex-direction: column;
-                gap: 20px;
-                padding: 20px;
-            }
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .nav-bar-list {
+        flex-direction: column;
+        padding-top: 60px;
+    }
 
-            .necessity-content,
-            .necessity-content-2,
-            .necessity-content-3 {
-                max-width: 100%;
-                margin: 0 auto;
-            }
+    .necessity {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
 
-            .Items {
-                max-width: 100%;
-                margin: 10px 0;
-                padding: 15px;
-            }
+    .necessity-content,
+    .necessity-content-2,
+    .necessity-content-3 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 
-            .Chose-us {
-                font-size: 32px;
-                padding: 20px;
-            }
+    .Items {
+        width: 100%;
+        margin: 10px 0;
+    }
 
-            .below-below-navbar-2 {
-                padding: 20px;
-            }
+    .Chose-us {
+        font-size: 32px;
+        padding: 20px;
+    }
 
-            .contact-form {
-                width: 90%;
-                padding: 1.5rem;
-            }
+    .below-below-navbar-2 {
+        padding: 20px;
+    }
 
-            .footer {
-                padding: 1.5rem;
-            }
+    .contact-form {
+        width: 90%;
+        padding: 1.5rem;
+    }
 
-            .footer p {
-                font-size: 0.75rem;
-            }
-        }
+    .footer {
+        padding: 1.5rem;
+    }
 
-        @media (max-width: 480px) {
-            .Chose-us {
-                font-size: 24px;
-                padding: 10px;
-            }
+    .footer p {
+        font-size: 0.75rem;
+    }
+}
 
-            .Items {
-                width: 100%;
-                font-size: 14px;
-            }
+@media (max-width: 480px) {
+    .Chose-us {
+        font-size: 24px;
+        padding: 10px;
+    }
 
-            .nav-bar-list {
-                padding-top: 20px;
-            }
+    .Items {
+        width: 100%;
+        font-size: 14px;
+    }
 
-            .contact-form {
-                padding: 1rem;
-            }
+    .nav-bar-list {
+        padding-top: 20px;
+    }
 
-            .contact-form input,
-            .contact-form textarea {
-                padding: 0.5rem;
-                font-size: 14px;
-            }
+    .contact-form {
+        padding: 1rem;
+    }
 
-            .contact-form button {
-                padding: 0.5rem 1rem;
-                font-size: 14px;
-            }
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.5rem;
+        font-size: 14px;
+    }
 
-            .footer p {
-                font-size: 0.7rem;
-            }
-        } */
+    .contact-form button {
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 0.7rem;
+    }
+}
