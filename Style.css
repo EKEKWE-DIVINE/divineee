@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    background-color:rgba(100, 99, 98, 0.537);
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.nav-bar-list{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: rgba(255, 217, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+}
+.Home-Page-option:hover{
+    cursor: pointer;
+    color: white;
+}
+.About-Page-option:hover{
+    cursor: pointer;
+    color: white;
+}
+.Contact-Page-option:hover{
+    cursor: pointer;
+    color: white;
+}
+.body{
+    background-image: url(438c721d-fdfc-4147-bd14-4fc372a6d39f.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+}
+#below-below-navbar{
+    background-color: black;
+     height: 550px; 
+     text-align: center; 
+}
+.Chose-us{
+    color: white; 
+    font-size: 40px; 
+    margin-top: 70px; 
+    padding: 70px;
+}
+.necessity{
+    display: flex; 
+    justify-content: 
+    space-around;
+}
+.necessity-content{
+    background-color: white; 
+    height: 190px; 
+    width: 340px; 
+    align-content: center; 
+    border-radius: 30px;  
+}
+.necessity-content-2{
+    background-color: white; 
+    height: 190px; 
+    width: 340px; 
+    align-content: center; 
+    border-radius: 30px;
+}
+.necessity-content-3{
+    background-color: white; 
+    height: 190px; 
+    width: 340px; 
+    align-content: center; 
+    border-radius: 30px;
+}
+.below-below-navbar-2{
+    background-color: black; 
+    height: 400px; 
+    text-align: center; 
+    opacity: 0.8;
+}
+.Achievement{
+    height: 300px;
+    background-color: black; 
+    justify-content: center;
+}
+.Items{
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: hwb(0 24% 76% / 0.658);  
+    align-content: center;
+}
+/* .Achievement:hover{
+    transform: scale(1.1);
+} */
+.Items:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+/* #necessity:hover{
+    transform: scale(1.05);
+} */
+#content:hover{
+    transform: scale(1.10);
+}
+/* Contact Section */
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: hwb(0 0% 100% / 0.758);
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    color: #2c3e50;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #000000d4;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: rgba(255, 217, 0, 0.747);
+    color: #000000d4;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
