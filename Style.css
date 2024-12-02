@@ -166,3 +166,88 @@
     margin-top: 1rem;
     font-size: 0.85rem;
 }
+ @media (max-width: 768px) {
+            .nav-bar-list {
+                flex-direction: column;
+                align-items: center;
+                padding-top: 60px;
+            }
+
+            .necessity {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .necessity-content,
+            .necessity-content-2,
+            .necessity-content-3 {
+                width: 90%;
+                margin-bottom: 20px;
+                height: auto;
+                padding: 15px;
+            }
+
+            .Items {
+                width: 90%;
+                margin: 10px 0;
+                height: auto;
+            }
+
+            .Chose-us {
+                font-size: 30px;
+                padding: 20px;
+            }
+
+            .below-below-navbar-2 {
+                padding: 20px;
+            }
+
+            .contact-form {
+                width: 100%;
+                padding: 1.5rem;
+            }
+
+            .footer {
+                padding: 1.5rem;
+            }
+
+            .footer p {
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .Chose-us {
+                font-size: 24px;
+                padding: 10px;
+            }
+
+            .Items {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            .nav-bar-list {
+                padding-top: 20px;
+            }
+
+            .contact-form {
+                padding: 1rem;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                padding: 0.5rem;
+                font-size: 14px;
+            }
+
+            .contact-form button {
+                padding: 0.5rem 1rem;
+                font-size: 14px;
+            }
+
+            .footer p {
+                font-size: 0.7rem;
+            }
+        }
