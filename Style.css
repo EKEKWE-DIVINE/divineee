@@ -169,35 +169,30 @@
   @media (max-width: 768px) {
             .nav-bar-list {
                 flex-direction: column;
-                align-items: center;
                 padding-top: 60px;
             }
 
             .necessity {
-                display: flex;
                 flex-direction: column;
-                align-items: center;
-                padding: 0;
+                gap: 20px;
+                padding: 20px;
             }
 
             .necessity-content,
             .necessity-content-2,
             .necessity-content-3 {
-                width: 90%;
-                margin-bottom: 20px;
-                height: auto;
-                padding: 15px;
-                text-align: center;
+                max-width: 100%;
+                margin: 0 auto;
             }
 
             .Items {
-                width: 90%;
+                max-width: 100%;
                 margin: 10px 0;
-                height: auto;
+                padding: 15px;
             }
 
             .Chose-us {
-                font-size: 30px;
+                font-size: 32px;
                 padding: 20px;
             }
 
@@ -206,7 +201,7 @@
             }
 
             .contact-form {
-                width: 100%;
+                width: 90%;
                 padding: 1.5rem;
             }
 
