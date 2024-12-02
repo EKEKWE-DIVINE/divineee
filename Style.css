@@ -165,7 +165,7 @@
 .footer p {
     margin-top: 1rem;
     font-size: 0.85rem;
-}
+/* }
   @media (max-width: 768px) {
             .nav-bar-list {
                 flex-direction: column;
@@ -247,4 +247,4 @@
             .footer p {
                 font-size: 0.7rem;
             }
-        }
+        } */
